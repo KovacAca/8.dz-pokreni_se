@@ -130,6 +130,19 @@ h2::after {
   .cta h2::after {
     background: var(--accents);
   }
+  /****************
+ footer
+ ****************/
+ footer {
+   background: var(--primaryColor);
+   border-bottom: 5px solid var(--secondaryColor);
+ }
+ footer a {
+   color: var(--secondaryColor)
+ }
+ footer a:hover {
+  color: var(--white);
+}
 
 
 
